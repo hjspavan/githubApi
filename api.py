@@ -1,6 +1,7 @@
 import urllib.request
 import json
 
+
 def buscar_usuario(username):
     url = f"https://github.com{username}"
     req = urllib.request.Request(url, headers={"User-Agent": "github-dev-app"})
